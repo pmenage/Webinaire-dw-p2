@@ -58,3 +58,42 @@ nav li {
   font-weight: 400;
   font-size: 26px;
 }
+
+/* Presentation */
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+#presentation-description {
+  margin: 30px 0;
+  max-width: 700px;
+}
+
+#information {
+  max-width: 700px;
+  display: flex;
+}
+
+#information article {
+  padding: 10px;
+}
+
+#information h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#information p {
+  font-size: 12px;
+}
+
+#quote {
+  max-width: 600px;
+  margin-top: 40px;
+}
